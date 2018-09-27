@@ -3,9 +3,9 @@
 def valid_move?(board, index)
   if board[index] != 1..9
     false
-  elsif board[index] == 1..9 && position_taken? == true
+  elsif board[index] == 1..9 && position_taken? == false
     true
-  end
+  endx
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 
